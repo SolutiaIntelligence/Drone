@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "id": "0",
+      "name": "Mike's Drone",
+      "model": "3D Solo",
+      "detail": "Detalles",
+      "img": "https://www.droidika.com/wp-content/uploads/2015/04/SA11A-Solo-aerial-drone-kit1-500x500.jpg",
+      "category": "Liviano",
+      "segment": "Comercial"
+    },
+    {
+      "id": "1",
+      "name": "Jerry's Drone",
+      "model": "3D Solo",
+      "detail": "Detalles",
+      "img": "https://www.droidika.com/wp-content/uploads/2015/04/SA11A-Solo-aerial-drone-kit1-500x500.jpg",
+      "category": "Liviano",
+      "segment": "Comercial"
+    },
+    {
+      "id": "2",
+      "name": "Danny's Drone",
+      "model": "3D Solo",
+      "detail": "Detalles",
+      "img": "https://www.droidika.com/wp-content/uploads/2015/04/SA11A-Solo-aerial-drone-kit1-500x500.jpg",
+      "category": "Liviano",
+      "segment": "Comercial"
+    },
+    {
+      "id": "3",
+      "name": "Juan'sDrone",
+      "model": "3DSolo",
+      "detail": "Detalles",
+      "img": "https: //www.droidika.com/wp-content/uploads/2015/04/SA11A-Solo-aerial-drone-kit1-500x500.jpg",
+      "category": "Liviano",
+      "segment": "Comercial"
+    }
+  ]
+}

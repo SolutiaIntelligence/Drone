@@ -1,0 +1,90 @@
+<ion-view view-title="Nuevo Drone">
+	<ion-content>
+		<div class="list">
+  			<label class="item item-input">
+    		<input type="text" placeholder="Alias del Drone">
+  			</label>
+  			<label class="item item-input item-select">
+  			<div class="input-label">
+  			Marca
+  			</div>
+  			<select>
+  			<option ng-repeat="objects in marca">{{objects.Marca}}</option>	
+  			</select>
+  			</label>
+  			<label class="item item-input item-select">
+  			<div class="input-label">
+  			Modelo
+  			</div>
+  			<select>
+  			<option>1</option>
+  			<option>2</option>
+  			<option>3</option>
+  			<option>4</option>
+  			<option>5</option>
+  			</select>
+  			</label>
+  			<label class="item item-input item-select">
+  			<div class="input-label">
+  			Categoria
+  			</div>
+  			<select>
+  			<option>1</option>
+  			<option>2</option>
+  			<option>3</option>
+  			<option>4</option>
+  			<option>5</option>
+  			</select>
+  			</label>
+  			<label class="item item-radio">
+    		<input type="radio" name="group">
+    		<div class="item-content">
+      		Comercial
+    		</div>
+    		<i class="radio-icon ion-checkmark"></i>	
+  			</label>
+  			<label class="item item-radio">
+    		<input type="radio" name="group">
+    		<div class="item-content">
+      		Recreativo
+    		</div>
+    		<i class="radio-icon ion-checkmark"></i>	
+  			</label>
+  			<p style="text-align:center; padding:20px;">Seguro de Vuelo</br></p>
+  			<label class="item item-input">
+    		<input type="text" placeholder="Numero de poliza">
+  			</label>
+  			<label class="item item-input">
+  			<span class="input-label">Vencimiento</span>
+  			<input type="date">
+			</label>
+  			<p style="text-align:center; padding:20px;">Piloto</br></p>
+  			<label class="item item-input">
+    		<input type="text" placeholder="Nombre">
+  			</label>
+  			<label class="item item-input">
+    		<input type="text" placeholder="Apellidos">
+  			</label>
+  			<label class="item item-input">
+    		<input type="email" placeholder="Numero de poliza">
+  			</label>
+  			<label class="item item-input">
+    		<input type="text" placeholder="Aditamentos">
+  			</label>
+			<ul class="list">
+
+  			<li class="item item-toggle">
+     		Camara
+     		<label class="toggle toggle-assertive">
+       		<input type="checkbox">
+       		<div class="track">
+         	<div class="handle"></div>
+       		</div>
+     		</label>
+  			</li>
+			</ul>
+  			
+  			
+  		</div>
+	</ion-content>
+</ion-view>

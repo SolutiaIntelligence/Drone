@@ -1,0 +1,14 @@
+<ion-view view-title="Drones">
+	<ion-content>
+	    <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="drone in drones" type="item-text-wrap" href="#/tab/drones/{{drone.id}}">
+        <img ng-src="{{drone.img}}">
+        <h2>{{drone.name}}</h2>
+        <p>{{drone.model}}</p>     
+      </ion-item>
+    </ion-list>	
+	</ion-content>
+			<div class="registroBtn" style="padding-top:0px;position:absolute;bottom:6%;width:100%">
+ 		<a class="button button-block button-balanced" href="#/tab/add">Registro</a>
+ 		</div>
+</ion-view>
